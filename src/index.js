@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Test from './RHamburger'
+import Hamburguer from './RHamburger'
 
 
-ReactDOM.render(<Test/>, document.querySelector("#app"))
+ReactDOM.render(<Hamburguer type={'hamburger--3dx'}/>, document.querySelector("#app"))
