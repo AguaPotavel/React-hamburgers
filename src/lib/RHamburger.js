@@ -20,11 +20,12 @@ function Hamburguer({...props}){
     }
 
     return (
-    <button className={`hamburger ${props.type} ${classActive}`} type="button" onClick={()=> ToggleClass()}>
+    <button className={`hamburger ${props.type} ${proclassActive}`} type="button" onClick={()=> ToggleClass()}>
         <span className="hamburger-box">
             <span className="hamburger-inner"></span>
         </span>
     </button>
+    
       )
 }
 
