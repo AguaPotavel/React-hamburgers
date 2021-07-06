@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { HamburgerContainer, HamburgerBox, HamburgerInner } from "./styles"
 
-function Hamburguer({ ...props }) {
+function Hamburger({ ...props }) {
   const [isActive, setIsActive] = useState(false)
   const [classActive, setClassActive] = useState("")
 
@@ -25,14 +25,16 @@ function Hamburguer({ ...props }) {
       className={`${props.type} ${classActive}`}
       type="button"
       onClick={() => ToggleClass()}
+      color={props.color}
     >
       <HamburgerBox className={`${props.type}`}>
         <HamburgerInner
           className={`${props.type} ${classActive}`}
+          color={props.color}
         ></HamburgerInner>
       </HamburgerBox>
     </HamburgerContainer>
   )
 }
 
-export default Hamburguer
+export default Hamburger

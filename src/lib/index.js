@@ -1,3 +1,3 @@
-import Hamburguer from './RHamburger'
+import Hamburger from './RHamburger'
 
-export { Hamburguer }
+export { Hamburger }

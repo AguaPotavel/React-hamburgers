@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Hamburguer", {
+Object.defineProperty(exports, "Hamburger", {
   enumerable: true,
   get: function get() {
     return _RHamburger.default;

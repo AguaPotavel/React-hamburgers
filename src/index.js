@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { Hamburguer } from "./lib"
+import App from './app'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hamburguer type={"hamburger--3dx"} />
+    <App/>
   </React.StrictMode>,
   document.getElementById("root")
 )
