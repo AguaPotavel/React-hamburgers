@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="./gitAssets/background.png" width="100%">
+  <img src="./gitAssets/background.svg" width="100%">
 </div>
 
 <br>
